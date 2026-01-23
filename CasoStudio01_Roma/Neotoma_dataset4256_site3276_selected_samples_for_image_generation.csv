@@ -1,0 +1,101 @@
+﻿Column1;Column2;Column3;Column4;Column5;Column16;Column24;Column34;Column37;Column39;Column41;Column42;Column48;Column54;Column60;Column71
+name;group;element;units;context;S352136;S352144;S352154;S352157;S352159;S352161;S352162;S352168;S352174;S352180;S352191
+AnalysisUnitName;;;;;;;;;;;;;;;
+Depth;;;;;77;173;245;261;277;295;301;349;435;531;656
+Thickness;;;;;;;;;;;;;;;
+Sample Name;;;;;;;;;;;;;;;
+Sample ID;;;;;352136;352144;352154;352157;352159;352161;352162;352168;352174;352180;352191
+EPD;Radiocarbon years BP;;;;--/3605/--;--/5604/--;--/6774/--;--/7011/--;--/7242/--;--/7495/--;--/7578/--;--/8214/--;--/9261/--;--/10324/--;--/11585/--
+Giesecke et al. 2014 (MADCAP);Calibrated radiocarbon years BP;;;;3968/3584/3008;7746/7235/6176;9125/8589/7710;9267/8722/7899;9381/8816/8057;9506/8891/8208;9542/8912/8248;9794/9072/8512;10502/9751/9220;11509/10940/10403;13153/12481/11762
+Fossilva;Radiocarbon years BP;;;;--/3947/--;--/5791/--;--/6843/--;--/7055/--;--/7260/--;--/7484/--;--/7557/--;--/8118/--;--/9034/--;--/9954/--;--/11036/--
+Abies;TRSH;pollen;NISP;;1;1;;1;;1;1;;;2;
+Acer;TRSH;pollen;NISP;;;;;;;1;;;;;1
+Alnus;TRSH;pollen;NISP;;26;16;13;8;20;22;20;3;30;5;9
+Amaranthaceae;UPHE;pollen;NISP;;1;1;3;1;4;2;;4;4;1;45
+Anthemis-type;UPHE;pollen;NISP;;1;;;1;2;5;;1;1;;1
+Apiaceae;UPHE;pollen;NISP;;1;;;;;1;2;7;1;1;2
+Artemisia;UPHE;pollen;NISP;;1;;1;3;2;2;2;2;;3;16
+Assulina muscorum;TEAM;test;NISP;;4;6;2;;3;3;3;3;7;5;1
+Asteroideae;UPHE;pollen;NISP;;1;;;;;;;;;;
+Betula;TRSH;pollen;NISP;;;2;;2;;2;;;;1;8
+Bidens-type;UPHE;pollen;NISP;;2;1;1;;1;;;3;3;1;
+Campanula;UPHE;pollen;NISP;;;;;;;;;;;;
+Cannabis;UPHE;pollen;NISP;;;;;;;;;;;;
+Carpinus;TRSH;pollen;NISP;;4;15;1;4;3;6;9;5;8;4;
+Caryophyllaceae;UPHE;pollen;NISP;;2;1;1;;;1;;8;1;1;
+Castanea;TRSH;pollen;NISP;;1;7;1;;;2;;;;;
+Cichorioideae;UPHE;pollen;NISP;;5;1;;1;;3;1;13;;;3
+Cornus;TRSH;pollen;NISP;;;;;;;;;;;;
+Corylus;TRSH;pollen;NISP;;10;10;1;7;3;4;23;8;7;12;32
+Cyperaceae;UPHE;pollen;NISP;;11;4;4;12;3;13;5;33;6;13;6
+Cystopteris-type;VACR;spore;NISP;;2;;;;;;;;;;
+Daphne;TRSH;pollen;NISP;;;;;;;;;;;;
+Ephedra;TRSH;pollen;NISP;;;;;;;;;;;;
+Equisetum;VACR;spore;NISP;;;;;1;20;4;;1;;4;
+Ericaceae;TRSH;pollen;NISP;;4;8;12;2;6;9;9;3;6;8;2
+Fabaceae undiff.;UPHE;pollen;NISP;;;;;1;;;;;;;
+Fagus;TRSH;pollen;NISP;;17;10;8;1;5;14;49;4;16;17;13
+Fraxinus excelsior-type;TRSH;pollen;NISP;;;3;;3;;;2;;;;
+Galium-type;UPHE;pollen;NISP;;;1;;1;;;;;;;
+Geum;UPHE;pollen;NISP;;;;;;;;;;;;
+Hedera;TRSH;pollen;NISP;;;;;;;;;;;;
+Herniaria-type;UPHE;pollen;NISP;;2;;;;;;;;;;
+Hippophaë rhamnoides;TRSH;pollen;NISP;;;;;;;;;1;;;
+Hordeum-type;UPHE;pollen;NISP;;1;2;;;1;;2;3;2;;
+Ilex;TRSH;pollen;NISP;;;;;;;;;;;;
+Indeterminable;UNID;pollen/spore;NISP;;11;1;3;;;1;83;1;1;1;1
+Juglans;TRSH;pollen;NISP;;1;;;;;;;;;;
+Juniperus-type;TRSH;pollen;NISP;;7;1;3;1;1;1;2;;1;;1
+Lathyrus;UPHE;pollen;NISP;;;;;;;;;;;;
+Ligustrum;TRSH;pollen;NISP;;;;;;;;;;;;
+Lycopodium clavatum;VACR;spore;NISP;;;;;;;;;;;;
+Lycopus europaeus;UPHE;pollen;NISP;;3;3;;;;;4;;;;
+Mentha-type;UPHE;pollen;NISP;;;;;;;;;;;;
+Myriophyllum alterniflorum;AQVP;pollen;NISP;;;1;;;;;;1;;;
+Myriophyllum spicatum;AQVP;pollen;NISP;;;;;;;;;;;;
+Myriophyllum verticillatum;AQVP;pollen;NISP;;;;;;;;;;;;
+Olea;TRSH;pollen;NISP;;2;2;10;1;4;;;1;;2;
+Oleaceae undiff.;TRSH;pollen;NISP;;;;;;;;;;;;
+Ononis-type;UPHE;pollen;NISP;;1;;;;1;;;;1;1;1
+Ostrya;TRSH;pollen;NISP;;29;12;;5;23;30;27;20;22;20;
+Oxyria;UPHE;pollen;NISP;;;;;;;;;;;;
+Persicaria maculosa;UPHE;pollen;NISP;;;;;;;;1;1;;;
+Phillyrea;TRSH;pollen;NISP;;7;;64;2;5;3;;2;;;
+Picea;TRSH;pollen;NISP;;;;;;;;;;;;
+Pinus;TRSH;pollen;NISP;;3;4;3;2;3;5;6;8;6;12;18
+Pistacia;TRSH;pollen;NISP;;;;;;;;;;;;
+Plantago coronopus;UPHE;pollen;NISP;;;;;;;1;;;;1;1
+Plantago lanceolata;UPHE;pollen;NISP;;;;;;4;3;;1;1;1;
+Plantago major/P. media;UPHE;pollen;NISP;;;4;1;1;1;2;;1;2;1;
+Plantago undiff.;UPHE;pollen;NISP;;;;;;;;5;;;;
+Plantago uniflora;UPHE;pollen;NISP;;;;;;;;;;;;
+Poaceae;UPHE;pollen;NISP;;38;50;78;35;45;59;77;83;67;63;88
+Polypodiophyta;VACR;spore;NISP;;;;;;;1;;1;;;
+Polypodium;VACR;spore;NISP;;;;1;1;;;;;;1;
+Potamogeton;AQVP;pollen;NISP;;;;;;;;;;;;
+Pteridium;VACR;spore;NISP;;3;4;1;2;;8;;4;;7;2
+Quercus ilex-type;TRSH;pollen;NISP;;31;17;11;11;14;9;6;8;12;9;2
+Quercus robur-type;TRSH;pollen;NISP;;41;41;4;12;3;14;2;15;14;9;18
+Quercus undiff.;TRSH;pollen;NISP;;53;69;128;181;125;73;7;90;109;124;97
+Ranunculus;UPHE;pollen;NISP;;;2;2;5;1;2;11;1;3;2;
+Rhamnus;TRSH;pollen;NISP;;;;;;;;;;;;
+Rosaceae;UPHE;pollen;NISP;;1;;15;14;17;13;;1;15;17;6
+Rumex acetosa;UPHE;pollen;NISP;;;;;;;;;;;;
+Rumex acetosella;UPHE;pollen;NISP;;3;5;4;4;7;1;;7;9;8;18
+Rumex undiff.;UPHE;pollen;NISP;;;5;;;;;25;;;;
+Salix;TRSH;pollen;NISP;;1;;1;1;2;2;;;;;
+Sample quantity;LABO;volume;cm^3;;0.515;0.515;0.515;0.515;0.515;0.515;0.515;0.515;0.515;0.515;0.515
+Secale cereale;UPHE;pollen;NISP;;;2;;;;;;;;;
+Sinapis-type;UPHE;pollen;NISP;;1;1;1;;;2;;2;4;;
+Stuckenia;AQVP;pollen;NISP;;1;10;1;;;4;;6;1;;
+Thalictrum;UPHE;pollen;NISP;;;;;;;;;;;;
+Thelypteris palustris-type;VACR;spore;NISP;;;;;;;;;;;;
+Tilia;TRSH;pollen;NISP;;;;;;;;;1;;;
+Trifolium;UPHE;pollen;NISP;;;;;;;1;;;;;
+Triticum-type;UPHE;pollen;NISP;;;2;;;5;2;;;;;
+Typha angustifolia/Sparganium;AQVP;pollen;NISP;;;1;;;;3;;3;1;2;1
+Typha latifolia;AQVP;pollen;NISP;;;1;;;;;;;;;
+Ulmus;TRSH;pollen;NISP;;2;2;8;;10;5;11;4;6;1;16
+Unknown;UNID;pollen/spore;NISP;;;;;3;;;9;;;;
+Urtica;UPHE;pollen;NISP;;2;4;;1;;;8;;;;
+Vitis;TRSH;pollen;NISP;;;;;;;;;;;;
