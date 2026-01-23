@@ -1,0 +1,2 @@
+IDFile;Data;Definizione;Prompt;Parametri-Seed/Model;Note;
+20260104_Gemini_PhD_Svezia1.jpg;2026/01/04;Ricostruzione ambientale Sud della Svezia;"Paleoenvironment reconstruction of Southern Sweden post-glacial era. Raw landscape with glacial erratic boulders and rocky ground. Open pioneer forest of Betula (white birch) and Pinus (scots pine). Patches of hardy grasses. Cold, blue-toned Nordic light, cloudy sky, raw nature, untouched wilderness, 8k, photorealistic.";Gemini, Nano Banana pro;Nessuna;

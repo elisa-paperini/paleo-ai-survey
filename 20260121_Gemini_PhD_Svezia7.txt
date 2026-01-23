@@ -1,0 +1,2 @@
+IDFile;Data;Definizione;Prompt;Parametri-Seed/Model;Note;
+20260121_Gemini_PhD_Svezia7.png;2026/01/04;Ricostruzione ambientale Sud della Svezia;Paleoenvironment reconstruction of Southern Sweden climatic optimum. Dense broadleaf forest, very lush and green. Massive Tilia (linden) and Quercus (oak) trees with wide canopies. Alnus (alder) trees growing near a swampy wetland area with ferns. Warm summer atmosphere, high humidity, sun rays penetrating the mist, photorealistic style. ;Gemini, Nano Banana pro;

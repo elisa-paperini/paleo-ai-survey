@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paleo-AI Survey Visual Material</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; }
+        header { text-align: center; padding: 40px 0; border-bottom: 2px solid #eee; }
+        h1 { margin: 0; color: #2c3e50; font-size: 2rem; }
+        p.intro { font-size: 1.1rem; color: #666; max-width: 700px; margin: 20px auto; }
+        
+        .section { background: #fff; padding: 30px; margin: 30px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        h2 { color: #2980b9; border-left: 5px solid #2980b9; padding-left: 15px; margin-top: 0; }
+        h3 { color: #444; border-bottom: 1px solid #eee; padding-bottom: 5px; margin-top: 40px; }
+        
+        .info-box { background: #eef7fb; padding: 15px; border-radius: 5px; margin: 15px 0; font-size: 0.95rem; }
+        
+        /* STILI PER L'INTRODUZIONE */
+        .intro-container { max-width: 800px; margin: 0 auto; text-align: left; padding: 10px 20px; }
+        .intro-text { font-size: 1rem; color: #444; margin-bottom: 15px; line-height: 1.7; }
+        .intro-section-title { color: #2c3e50; font-size: 1.2rem; margin-top: 25px; margin-bottom: 10px; border-bottom: 2px solid #eee; padding-bottom: 5px; display: inline-block; }
+        
+        /* Liste nell'intro */
+        .intro-list { margin-bottom: 15px; padding-left: 20px; }
+        .intro-list li { margin-bottom: 8px; color: #555; }
+        
+        /* Box evidenziato per le istruzioni finali */
+        .highlight-box { background-color: #e8f6f3; padding: 15px; border-left: 5px solid #27ae60; border-radius: 4px; margin-top: 20px; font-size: 0.95rem; color: #2c3e50; }
+		
+		/* Gestione Immagini */
+        .img-container { text-align: center; margin: 25px 0; }
+        img.main-img { max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #ddd; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        
+        /* Stile Diagrammi */
+        img.diagram-img { max-width: 100%; height: auto; margin-top: 5px; border: 1px solid #ccc; background: white; padding: 5px; display: block; margin-bottom: 20px; cursor: zoom-in;}
+        
+        .caption { font-style: italic; color: #777; font-size: 0.9rem; margin-top: 5px; font-weight: bold; }
+
+        /* Stile Dettagli Tecnici - FRECCE CORRETTE */
+        details.technical-details { background: #f8f9fa; padding: 15px; border-radius: 5px; margin-top: 15px; border: 1px solid #e9ecef; font-size: 0.9rem; }
+        details.technical-details summary { cursor: pointer; font-weight: 600; color: #2c3e50; list-style: none; font-size: 1rem; outline: none; }
+        /* Nasconde il marker di default dei browser */
+        details.technical-details summary::-webkit-details-marker { display: none; }
+        /* Aggiunge la nostra freccia personalizzata */
+        details.technical-details summary::before { content: "▶ "; color: #27ae60; font-size: 0.8rem; display: inline-block; width: 1.2em; }
+        details[open].technical-details summary::before { content: "▼ "; }
+
+        .prompt-box { background-color: #2d3436; color: #55efc4; padding: 20px; border-radius: 4px; font-family: 'Consolas', 'Monaco', monospace; font-size: 0.9rem; line-height: 1.5; white-space: pre-wrap; margin-top: 15px; border-left: 5px solid #00b894; }
+        
+        .data-link { display: block; margin-top: 8px; color: #2980b9; text-decoration: none; font-weight: bold; border-bottom: 1px dotted #2980b9; width: fit-content;}
+        .data-link:hover { color: #e74c3c; border-bottom: 1px solid #e74c3c; }
+
+        .btn-container { text-align: center; margin: 60px 0; }
+        .btn { background: #27ae60; color: #fff; padding: 18px 40px; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 1.2rem; box-shadow: 0 4px 15px rgba(39, 174, 96, 0.4); transition: transform 0.2s; }
+        .btn:hover { background: #219150; transform: translateY(-2px); }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Evaluation of AI-generated paleo-ecological reconstructions</h1>
+    
+    <div class="intro-container">
+        <p class="intro-text" style="font-size: 1.1rem; margin-top: 20px;">
+            <strong>Welcome!</strong> This page contains pollen data and visual reconstructions generated using AI.
+            <span style="background-color: #fff3cd; padding: 2px 6px; border-radius: 3px;">Please review the material below before proceeding with your assessment.</span>
+        </p>
+
+        <h3 class="intro-section-title">Research Context</h3>
+        <p class="intro-text">
+            This survey is part of a PhD research project aimed at exploring and better understanding the relationship between humans and non-humans, observing how it has evolved over time.
+        </p>
+
+        <h3 class="intro-section-title">Methodology</h3>
+        <p class="intro-text">
+            The research framework integrates a <strong>predictive modelling phase</strong> to analyse ecological dynamics, which serves as the foundation for the AI-based visual reconstructions. We selected two case studies:
+        </p>
+        <ul class="intro-list">
+            <li><strong>Mediterranean:</strong> Lake Martignano (Rome), focusing on the Late Glacial to Holocene transition.</li>
+            <li><strong>Nordic:</strong> Årsjö (Southern Sweden), analysing the shift from pioneer vegetation to agriculture.</li>
+        </ul>
+        <p class="intro-text">
+            The images were generated using <strong>Gemini 3 Pro</strong> (specifically the <em>Nano Banana</em> iteration). Documentation and pollen data were sourced from the <strong>Neotoma Paleoecology Database</strong>.
+        </p>
+
+        <h3 class="intro-section-title">Structure & How to Participate</h3>
+        <p class="intro-text">
+            The survey evaluates the botanical accuracy of the images. You can approach it at two levels:
+        </p>
+        <ol class="intro-list">
+            <li><strong>Quick review:</strong> Evaluate the reconstructions by observing the pollen diagrams provided on this page.</li>
+            <li><strong>Deep dive:</strong> Download and examine the raw CSV datasets and detailed prompts for a rigorous validation.</li>
+        </ol>
+
+        <div class="highlight-box">
+            <strong>Select Your Case Study:</strong> You are not required to complete both sections. If a specific geographical context (Mediterranean vs. Nordic) lies outside your area of expertise, please feel free to skip that case study and focus only on the one where you feel most confident.
+        </div>
+
+        <p style="margin-top: 25px; font-weight: bold; color: #27ae60; text-align: center;">
+            Thank you for your time and expertise.
+        </p>
+    </div>
+</header>
+
+<div class="section">
+    <h2>Case Study 1: Lake Martignano (Campagnano di Roma, Lazio, Italy)</h2>
+    <div class="info-box">
+		<p style="margin-top:0; margin-bottom:10px; color:#444;">
+            📍 <strong>Site Coordinates:</strong> Lat: 42.11301, Long: 12.317055
+        </p>
+        <p>
+            <strong>Figure 1:</strong> Quadriptych illustrating the <strong>evolution of the same landscape</strong> across four distinct chronological phases:
+        </p>
+        <ul style="font-size: 0.9rem; margin-top: 5px; margin-bottom: 15px; color:#555;">
+            <li><strong>A:</strong> Late Glacial (~12.5k BP)</li>
+            <li><strong>B:</strong> Early Holocene (~10-9k BP)</li>
+            <li><strong>C:</strong> Mid Holocene (~8.6k BP)</li>
+            <li><strong>D:</strong> Late Holocene (~3.6k BP)</li>
+        </ul>
+        <details class="technical-details">
+            <summary>View Prompt, Pollen Diagram & Data</summary>
+            
+            <p style="margin-top:10px;"><strong>1. Pollen Data:</strong></p>
+			<p>These files contain raw pollen counts sourced from the Neotoma Paleoecology Database. 'All Samples' represents the complete original record, while 'Selected Samples' contains only the record used to generate the images.</p>
+            <a href="CasoStudio01_Roma/Neotoma_dataset4256_site3276_selected_samples_for_image_generation.csv" download class="data-link">📥 Download CSV (Selected Samples)</a>
+            <a href="CasoStudio01_Roma/Neotoma_dataset4256_site3276_all_samples.csv" download class="data-link">📥 Download CSV (All Samples - Complete Record)</a>
+            
+            <p style="margin-top:20px;"><strong>2. Pollen Diagram:</strong></p>
+            <a href="CasoStudio01_Roma/Neotoma_dataset4256_site3276_pollen_diagram.png" target="_blank" class="data-link">📥 Download/Enlarge Diagram</a>
+            <a href="CasoStudio01_Roma/Neotoma_dataset4256_site3276_pollen_diagram.png" target="_blank">
+                <img src="CasoStudio01_Roma/Neotoma_dataset4256_site3276_pollen_diagram.png" class="diagram-img" alt="Pollen Diagram Roma" title="Click to enlarge">
+            </a>
+
+            <p style="margin-top:20px;"><strong>3. Generative Prompt:</strong></p>
+            <a href="20260104_Gemini_PhD_Roma28.txt" download class="data-link">📥 Download Prompt Text File (.txt)</a>
+            <div class="prompt-box">Realistic paleoenvironment reconstruction, 2x2 quadriptych (four panels in one image) with thin borders, same exact camera viewpoint in every panel (same horizon line, camera height, ~35mm lens), landscape of the Roma (central Italy) featuring a small volcanic lake/wetland basin and rolling hills in the background, late spring, natural daylight, high detail. Panel A (top-left) – ~12.5k cal BP (Group 1, Late Glacial): cooler and more open temperate steppe/grassland, abundant grasses (Poaceae), patches of wormwood (Artemisia) and open-ground herbs, sparse woodland with scattered trees, some pioneer conifers/deciduous trees; lakeshore with sedges (Cyperaceae), slightly windy atmosphere, occasional bare soil. Panel B (top-right) – ~10–9k cal BP (Group 2, Early Holocene): milder climate, more continuous temperate deciduous oak woodland (Quercus) with understory, fewer open clearings; wetland fringe with alder (Alnus) and sedges (Cyperaceae). Panel C (bottom-left) – ~8.6k cal BP (Group 2–3): clear shift to Mediterranean elements: slopes with holm oak (Quercus ilex-type) and maquis shrubland including Phillyrea, some wild olive (Olea), mixed with remaining deciduous oaks in cooler spots; woodland–shrubland mosaic. Panel D (bottom-right) – ~3.6k cal BP (Group 3, Mid–Late Holocene): patchwork mosaic of deciduous oaks + holm oak, larger grassy openings, wetland edge with alder (Alnus) and sedges, occasional chestnut (Castanea), overall more open but natural. No modern buildings, no roads, no power lines, no modern agriculture, no text.</div>
+        </details>
+    </div>
+
+    <div class="img-container">
+        <a href="20260104_Gemini_PhD_Roma28.jpg" target="_blank">
+            <img src="20260104_Gemini_PhD_Roma28.jpg" class="main-img" alt="Figura 1: Roma Quadriptych">
+        </a>
+        <div class="caption">Figure 1</div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Case Study 2: Årsjö (Southern Sweden)</h2>
+    
+    <div class="info-box" style="border-left: 5px solid #e67e22; background-color: #fff8f0;">
+        <h3 style="margin-top:0; border:none; color:#d35400;">Reference Data for all Sweden Images</h3>
+		<p style="margin-bottom: 5px; color:#444;">
+            📍 <strong>Site Coordinates:</strong> Lat: 55.50078, Long: 13.74492
+        </p>
+        <p style="font-size:0.95rem;">
+            The figures below (2, 3, 4, 5) depict the <strong>evolution of this single site</strong> through time, from the post-glacial period (~11.5k BP) to the Late Holocene (~1k BP). This documentation applies to Figures 2, 3, 4, and 5.
+        </p>
+        
+        <details class="technical-details">
+            <summary>View All Pollen Data & Diagrams (Årsjö)</summary>
+            <p>These files contain raw pollen counts sourced from the Neotoma Paleoecology Database. The reconstructions rely on two distinct datasets. For each dataset, 'All Samples' provides the complete record, while 'Selected Samples' includes only the specific records used for the corresponding visual phases.</p>
+            <p style="margin-top:10px;"><strong>Dataset 4162:</strong></p>
+            <a href="CasoStudio02_Svezia/Neotoma_dataset4162_site3204_selected_samples_for_image_generation.csv" download class="data-link">📥 Download CSV (Selected Samples 4162)</a>
+            <a href="CasoStudio02_Svezia/Neotoma_dataset4162_site3204_all_samples.csv" download class="data-link">📥 Download CSV (All Samples 4162)</a>
+            
+            <a href="CasoStudio02_Svezia/Neotoma_dataset4162_site3204_pollen_diagram.png" target="_blank" class="data-link">📥 Download/Enlarge Diagram 4162</a>
+            <a href="CasoStudio02_Svezia/Neotoma_dataset4162_site3204_pollen_diagram.png" target="_blank">
+                <img src="CasoStudio02_Svezia/Neotoma_dataset4162_site3204_pollen_diagram.png" class="diagram-img" alt="Diagram 4162" title="Click to enlarge">
+            </a>
+
+            <hr style="margin: 20px 0; border: 0; border-top: 1px solid #ddd;">
+
+            <p style="margin-top:10px;"><strong>Dataset 23013:</strong></p>
+            <a href="CasoStudio02_Svezia/Neotoma_dataset23013_site3204_selected_samples_for_image_generation.csv" download class="data-link">📥 Download CSV (Selected Samples 23013)</a>
+            <a href="CasoStudio02_Svezia/Neotoma_dataset23013_site3204_all_samples.csv" download class="data-link">📥 Download CSV (All Samples 23013)</a>
+            
+            <a href="CasoStudio02_Svezia/Neotoma_dataset23013_site3204_pollen_diagram.png" target="_blank" class="data-link">📥 Download/Enlarge Diagram 23013</a>
+            <a href="CasoStudio02_Svezia/Neotoma_dataset23013_site3204_pollen_diagram.png" target="_blank">
+                <img src="CasoStudio02_Svezia/Neotoma_dataset23013_site3204_pollen_diagram.png" class="diagram-img" alt="Diagram 23013" title="Click to enlarge">
+            </a>
+        </details>
+    </div>
+
+    <h3>Phase 1: Post-Glacial Pioneer</h3>
+    <div class="info-box">
+        <strong>Figure 2:</strong> Post-Glacial Pioneer Phase (~11.5k BP)
+        <details class="technical-details">
+            <summary>View Prompt</summary>
+            <a href="20260104_Gemini_PhD_Svezia1.txt" download class="data-link">📥 Download Prompt (.txt)</a>
+            <div class="prompt-box">Paleoenvironment reconstruction of Southern Sweden post-glacial era. Raw landscape with glacial erratic boulders and rocky ground. Open pioneer forest of Betula (white birch) and Pinus (scots pine). Patches of hardy grasses. Cold, blue-toned Nordic light, cloudy sky, raw nature, untouched wilderness, 8k, photorealistic.</div>
+        </details>
+    </div>
+    <div class="img-container">
+        <a href="20260104_Gemini_PhD_Svezia1.jpg" target="_blank">
+            <img src="20260104_Gemini_PhD_Svezia1.jpg" class="main-img" alt="Figura 2: Sweden Pioneer">
+        </a>
+        <div class="caption">Figure 2</div>
+    </div>
+
+	<h3>Phase 2: Climatic Optimum, dense forest (Style photorealistic)</h3>
+    <div class="info-box">
+        <strong>Figure 3:</strong> Climatic Optimum (~7k BP). Style: Photorealistic.
+        <details class="technical-details">
+            <summary>View Prompt</summary>
+            <a href="20260121_Gemini_PhD_Svezia7.txt" download class="data-link">📥 Download Prompt (.txt)</a>
+            <div class="prompt-box">Paleoenvironment reconstruction of Southern Sweden climatic optimum. Dense broadleaf forest, very lush and green. Massive Tilia (linden) and Quercus (oak) trees with wide canopies. Alnus (alder) trees growing near a swampy wetland area with ferns. Warm summer atmosphere, high humidity, sun rays penetrating the mist, photorealistic style.</div>
+        </details>
+    </div>
+    <div class="img-container">
+        <a href="20260121_Gemini_PhD_Svezia7.png" target="_blank">
+            <img src="20260121_Gemini_PhD_Svezia7.png" class="main-img" alt="Figura 4: Sweden Optimum Realism">
+        </a>
+        <div class="caption">Figure 3</div>
+    </div>
+	
+	    <h3>Phase 2: Climatic Optimum, dense forest (Style historical realism)</h3>
+    <div class="info-box">
+        <strong>Figure 4:</strong> Climatic Optimum (~7k BP). Style: historical realism.
+        <details class="technical-details">
+            <summary>View Prompt</summary>
+            <a href="20260104_Gemini_PhD_Svezia2.txt" download class="data-link">📥 Download Prompt (.txt)</a>
+            <div class="prompt-box">Paleoenvironment reconstruction of Southern Sweden climatic optimum. Dense broadleaf forest, very lush and green. Massive Tilia (linden) and Quercus (oak) trees with wide canopies. Alnus (alder) trees growing near a swampy wetland area with ferns. Warm summer atmosphere, high humidity, sun rays penetrating the mist, detailed biological illustration style.</div>
+        </details>
+    </div>
+    <div class="img-container">
+        <a href="20260104_Gemini_PhD_Svezia2.jpg" target="_blank">
+            <img src="20260104_Gemini_PhD_Svezia2.jpg" class="main-img" alt="Figura 3: Sweden Optimum Illustration">
+        </a>
+        <div class="caption">Figure 4</div>
+    </div>
+
+    <h3>Phase 3: Late Holocene/Agriculture (~1k BP)</h3>
+    <div class="info-box">
+        <strong>Figure 5:</strong> Late Holocene/Early Agriculture, ~1k BP.
+        <details class="technical-details">
+            <summary>View Prompt</summary>
+            <a href="20260104_Gemini_PhD_Svezia3.txt" download class="data-link">📥 Download Prompt (.txt)</a>
+            <div class="prompt-box">Paleoenvironment reconstruction of Southern Sweden late Holocene. A landscape showing early agriculture near a lake. A field of Secale (rye) in the foreground with blue cornflowers (Centaurea cyanus). In the background, a managed Fagus (beech) forest. Wooden fence. Grey overcast sky, muted earth tones, historical realism.</div>
+        </details>
+    </div>
+    <div class="img-container">
+        <a href="20260104_Gemini_PhD_Svezia3.jpg" target="_blank">
+            <img src="20260104_Gemini_PhD_Svezia3.jpg" class="main-img" alt="Figura 5: Sweden Agriculture">
+        </a>
+        <div class="caption">Figure 5</div>
+    </div>
+
+</div>
+
+<div class="btn-container">
+    <p style="margin-bottom: 20px;">Ready to evaluate? Click here to open the survey.</p>
+    <a href="survey.html" class="btn">Go to Survey &rarr;</a>
+</div>
+
+</body>
+</html>
